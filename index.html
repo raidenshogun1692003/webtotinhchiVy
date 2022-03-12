@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/card.css">
+    <link rel="stylesheet" href="./styles.scss">
+    <link rel="icon" type="image/png" href="img.png" />
+    <link rel="stylesheet" href="./styles.scss">
+    <link rel="stylesheet" href="./styles.css">
+    <title>8/3</title>
+</head>
+
+<body>
+
+    <embed name="GoodEnough" src="/nhac.mp3" loop="true" hidden="true" autostart="true">
+
+    <canvas id="canvas" width="1400" height="600"></canvas>
+
+
+    <h1 class="vy">
+        Chúc chị
+        Vy 8/3 vui vẻ.</h1>
+    <div id="typedStrings">
+        <p style="text-align: center;font-family: 'Courier New', Courier, monospace;font-size: 40px;padding-top:120px;">
+            Em thích chị</p>
+        <p style="text-align: center;font-family: 'Courier New', Courier, monospace;font-size: 20px;" id="loveu">Chị làm
+            người yêu em được hăm? <a href="" target="_blank"><i class='fa fa-codepen'></i></a>
+        </p>
+    </div>
+
+    <div class="buttons">
+        <button class="iu" onclick="hidenFunction()">Có</button>
+
+        <button class="iu2" onclick="noFunction()">Chưa bít</button>
+
+    </div>
+    <span id="span"></span>
+
+    <div id="newcontent">
+        <div id="drag-container">
+            <div id="spin-container">
+                <!-- Add your images (or video) here -->
+                <img src="/img.png" alt="">
+                <img src="/IMG_3852.JPG" alt="">
+                <img src="/IMG_3903.JPG" alt="">
+                <img src="/IMG_3946.JPG" alt="">
+                <img src="/IMG_3761.jpg" alt="">
+
+
+
+
+                <!-- Text at center of ground -->
+                <p></p>
+            </div>
+        </div>
+        <div id="ground"></div>
+    </div>
+
+
+
+
+    <script src="./card.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
